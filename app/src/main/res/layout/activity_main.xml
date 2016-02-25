@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/boo"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#000">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="380dp"
+        android:layout_height="270dp"
+        android:id="@+id/imageView"
+        android:contentDescription="logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.50" />
+
+    <ImageButton
+        android:src="@drawable/facebook"
+        android:layout_width="204dp"
+        android:layout_height="46dp"
+        android:id="@+id/imageButton"
+        android:layout_weight="1.50"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ImageButton
+        android:src="@drawable/glogin"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.50"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email"
+        android:id="@+id/textView"
+        android:layout_gravity="left|center_horizontal"
+        android:enabled="false"
+        android:layout_marginTop="0dp"
+        android:typeface="monospace"
+        android:textColor="#FFF"
+        android:textIsSelectable="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="1.50"
+        android:editable="true"
+        android:background="#FFF"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Password"
+        android:id="@+id/textView2"
+        android:layout_weight="1.50"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="1.50"
+        android:textColor="#000"
+        android:background="#FFF" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Get Me Lost"
+        android:id="@+id/button"
+        android:layout_weight="1.63"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:onClick="goToDestination"/>
+
+</LinearLayout>

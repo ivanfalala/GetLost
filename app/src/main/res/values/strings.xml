@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Get Lost</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">Logo</string>
+    <string name="GetLost">Get Me Lost</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_tripsetup">tripsetupActivity</string>
+    <string name="title_activity_trip_set_up">TripSetUp</string>
+</resources>

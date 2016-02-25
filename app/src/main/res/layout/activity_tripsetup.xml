@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="app.com.example.android.getlost.tripsetupActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#000">
+
+
+    <ImageView
+        android:src="@drawable/bigbasin"
+        android:layout_width="330dp"
+        android:layout_height="360dp"
+        android:id="@+id/imageView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What to bring?"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFF"
+        android:background="#000"
+        android:clickable="true" />
+
+</LinearLayout>
